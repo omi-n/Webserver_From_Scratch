@@ -1,0 +1,3 @@
+/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles/WSLWebServer.dir
+/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
