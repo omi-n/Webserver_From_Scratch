@@ -19,7 +19,7 @@ public:
     void launch() final;
 
 private:
-    char buffer[30000] = {0};
+    char buffer[30000];
     int new_socket;
     void acceptor() final;
     void handler() final;

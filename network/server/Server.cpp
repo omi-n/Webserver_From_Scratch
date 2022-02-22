@@ -14,7 +14,7 @@ void Server::acceptor() {
     struct sockaddr_in address = getSocket()->getAddress();
     int addressLength = sizeof(address);
     new_socket = accept(getSocket()->getSock(), (struct sockaddr*)& address, (socklen_t*)& addressLength);
-    read(new_socket, buffer, 30000);
+    read(new_socket, buffer, sizeof(buffer));
 }
 
 void Server::handler() {
@@ -22,7 +22,7 @@ void Server::handler() {
 }
 
 void Server::responder() {
-    char* hello = "Hello from server";
+    char* hello = (char*) "Hello from server";
     write(new_socket, hello, strlen(hello));
     close(new_socket);
 }
@@ -34,11 +34,7 @@ void Server::launch() {
         handler();
         responder();
         std::printf("========== COMPLETE ==========\n");
-        std::string a;
-        std::cin >> a;
-        if(a == "n")
-            continue;
-        else
+        if(std::cin.get() == 'q')
             break;
     }
     close(getSocket()->getSock());
