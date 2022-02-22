@@ -81,12 +81,12 @@ clean: CMakeFiles/WSLWebServer.dir/clean
 CMakeFiles/WSLWebServer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WSLWebServer.dir/build.make CMakeFiles/WSLWebServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WSLWebServer.dir/build.make CMakeFiles/WSLWebServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target WSLWebServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target WSLWebServer"
 .PHONY : CMakeFiles/WSLWebServer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/WSLWebServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/WSLWebServer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/WSLWebServer.dir/rule

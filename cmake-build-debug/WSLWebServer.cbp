@@ -88,22 +88,55 @@
 		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/WebServer.h">
 			<Option target="WSLWebServer"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/BindingSocket.cpp">
+		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/server/Server.cpp">
 			<Option target="WSLWebServer"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/BindingSocket.h">
+		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/server/Server.h">
 			<Option target="WSLWebServer"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/ConnectingSocket.cpp">
+		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/server/SimpleServer.cpp">
 			<Option target="WSLWebServer"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/ConnectingSocket.h">
+		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/server/SimpleServer.h">
 			<Option target="WSLWebServer"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/SimpleSocket.cpp">
+		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/server/test.cpp">
 			<Option target="WSLWebServer"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/SimpleSocket.h">
+		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/BindingSocket.cpp">
+			<Option target="WSLWebServer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/BindingSocket.h">
+			<Option target="WSLWebServer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/ConnectingSocket.cpp">
+			<Option target="WSLWebServer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/ConnectingSocket.h">
+			<Option target="WSLWebServer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/ListeningSocket.cpp">
+			<Option target="WSLWebServer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/ListeningSocket.h">
+			<Option target="WSLWebServer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/SimpleSocket.cpp">
+			<Option target="WSLWebServer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/SimpleSocket.h">
+			<Option target="WSLWebServer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/webserver_sockets.cpp">
+			<Option target="WSLWebServer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/webserver_sockets.h">
+			<Option target="WSLWebServer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/webserver_networking.cpp">
+			<Option target="WSLWebServer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/webserver_networking.h">
 			<Option target="WSLWebServer"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/CMakeLists.txt">

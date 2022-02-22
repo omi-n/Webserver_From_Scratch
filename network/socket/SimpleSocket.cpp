@@ -9,7 +9,11 @@ using namespace Nabil_Omi_WSL;
 /**
  * Establishes a simple socket. (SHOULD NOT BE USED RAW)
  */
-SimpleSocket::SimpleSocket(int domain, int service, int protocol, int port, u_long interface) {
+SimpleSocket::SimpleSocket(int domain,
+                           int service,
+                           int protocol,
+                           int port,
+                           u_long interface) {
     // Address structure
     address.sin_family = domain;
     address.sin_port = htons(port);

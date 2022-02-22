@@ -6,7 +6,11 @@
 
 using namespace Nabil_Omi_WSL;
 
-BindingSocket::BindingSocket(int domain, int service, int protocol, int port, u_long interface)
+BindingSocket::BindingSocket(int domain,
+                             int service,
+                             int protocol,
+                             int port,
+                             u_long interface)
         : SimpleSocket(domain, service, protocol, port, interface) {
     setConnection(connectToNetwork(getSock(), getAddress()));
     testConnection(getConnection());

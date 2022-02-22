@@ -9,9 +9,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/WebServer.cpp" "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles/WSLWebServer.dir/WebServer.cpp.o"
-  "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/BindingSocket.cpp" "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles/WSLWebServer.dir/network/BindingSocket.cpp.o"
-  "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/ConnectingSocket.cpp" "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.o"
-  "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/SimpleSocket.cpp" "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles/WSLWebServer.dir/network/SimpleSocket.cpp.o"
+  "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/server/Server.cpp" "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles/WSLWebServer.dir/network/server/Server.cpp.o"
+  "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/server/SimpleServer.cpp" "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles/WSLWebServer.dir/network/server/SimpleServer.cpp.o"
+  "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/server/test.cpp" "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles/WSLWebServer.dir/network/server/test.cpp.o"
+  "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/BindingSocket.cpp" "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles/WSLWebServer.dir/network/socket/BindingSocket.cpp.o"
+  "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/ConnectingSocket.cpp" "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles/WSLWebServer.dir/network/socket/ConnectingSocket.cpp.o"
+  "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/ListeningSocket.cpp" "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles/WSLWebServer.dir/network/socket/ListeningSocket.cpp.o"
+  "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/SimpleSocket.cpp" "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles/WSLWebServer.dir/network/socket/SimpleSocket.cpp.o"
+  "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/webserver_sockets.cpp" "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles/WSLWebServer.dir/network/socket/webserver_sockets.cpp.o"
+  "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/webserver_networking.cpp" "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles/WSLWebServer.dir/network/webserver_networking.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

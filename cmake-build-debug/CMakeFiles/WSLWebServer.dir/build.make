@@ -79,62 +79,152 @@ CMakeFiles/WSLWebServer.dir/WebServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WSLWebServer.dir/WebServer.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/WebServer.cpp -o CMakeFiles/WSLWebServer.dir/WebServer.cpp.s
 
-CMakeFiles/WSLWebServer.dir/network/SimpleSocket.cpp.o: CMakeFiles/WSLWebServer.dir/flags.make
-CMakeFiles/WSLWebServer.dir/network/SimpleSocket.cpp.o: ../network/SimpleSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WSLWebServer.dir/network/SimpleSocket.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WSLWebServer.dir/network/SimpleSocket.cpp.o -c /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/SimpleSocket.cpp
+CMakeFiles/WSLWebServer.dir/network/socket/SimpleSocket.cpp.o: CMakeFiles/WSLWebServer.dir/flags.make
+CMakeFiles/WSLWebServer.dir/network/socket/SimpleSocket.cpp.o: ../network/socket/SimpleSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WSLWebServer.dir/network/socket/SimpleSocket.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WSLWebServer.dir/network/socket/SimpleSocket.cpp.o -c /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/SimpleSocket.cpp
 
-CMakeFiles/WSLWebServer.dir/network/SimpleSocket.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WSLWebServer.dir/network/SimpleSocket.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/SimpleSocket.cpp > CMakeFiles/WSLWebServer.dir/network/SimpleSocket.cpp.i
+CMakeFiles/WSLWebServer.dir/network/socket/SimpleSocket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WSLWebServer.dir/network/socket/SimpleSocket.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/SimpleSocket.cpp > CMakeFiles/WSLWebServer.dir/network/socket/SimpleSocket.cpp.i
 
-CMakeFiles/WSLWebServer.dir/network/SimpleSocket.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WSLWebServer.dir/network/SimpleSocket.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/SimpleSocket.cpp -o CMakeFiles/WSLWebServer.dir/network/SimpleSocket.cpp.s
+CMakeFiles/WSLWebServer.dir/network/socket/SimpleSocket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WSLWebServer.dir/network/socket/SimpleSocket.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/SimpleSocket.cpp -o CMakeFiles/WSLWebServer.dir/network/socket/SimpleSocket.cpp.s
 
-CMakeFiles/WSLWebServer.dir/network/BindingSocket.cpp.o: CMakeFiles/WSLWebServer.dir/flags.make
-CMakeFiles/WSLWebServer.dir/network/BindingSocket.cpp.o: ../network/BindingSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/WSLWebServer.dir/network/BindingSocket.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WSLWebServer.dir/network/BindingSocket.cpp.o -c /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/BindingSocket.cpp
+CMakeFiles/WSLWebServer.dir/network/socket/BindingSocket.cpp.o: CMakeFiles/WSLWebServer.dir/flags.make
+CMakeFiles/WSLWebServer.dir/network/socket/BindingSocket.cpp.o: ../network/socket/BindingSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/WSLWebServer.dir/network/socket/BindingSocket.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WSLWebServer.dir/network/socket/BindingSocket.cpp.o -c /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/BindingSocket.cpp
 
-CMakeFiles/WSLWebServer.dir/network/BindingSocket.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WSLWebServer.dir/network/BindingSocket.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/BindingSocket.cpp > CMakeFiles/WSLWebServer.dir/network/BindingSocket.cpp.i
+CMakeFiles/WSLWebServer.dir/network/socket/BindingSocket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WSLWebServer.dir/network/socket/BindingSocket.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/BindingSocket.cpp > CMakeFiles/WSLWebServer.dir/network/socket/BindingSocket.cpp.i
 
-CMakeFiles/WSLWebServer.dir/network/BindingSocket.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WSLWebServer.dir/network/BindingSocket.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/BindingSocket.cpp -o CMakeFiles/WSLWebServer.dir/network/BindingSocket.cpp.s
+CMakeFiles/WSLWebServer.dir/network/socket/BindingSocket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WSLWebServer.dir/network/socket/BindingSocket.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/BindingSocket.cpp -o CMakeFiles/WSLWebServer.dir/network/socket/BindingSocket.cpp.s
 
-CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.o: CMakeFiles/WSLWebServer.dir/flags.make
-CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.o: ../network/ConnectingSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.o -c /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/ConnectingSocket.cpp
+CMakeFiles/WSLWebServer.dir/network/socket/ConnectingSocket.cpp.o: CMakeFiles/WSLWebServer.dir/flags.make
+CMakeFiles/WSLWebServer.dir/network/socket/ConnectingSocket.cpp.o: ../network/socket/ConnectingSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/WSLWebServer.dir/network/socket/ConnectingSocket.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WSLWebServer.dir/network/socket/ConnectingSocket.cpp.o -c /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/ConnectingSocket.cpp
 
-CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/ConnectingSocket.cpp > CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.i
+CMakeFiles/WSLWebServer.dir/network/socket/ConnectingSocket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WSLWebServer.dir/network/socket/ConnectingSocket.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/ConnectingSocket.cpp > CMakeFiles/WSLWebServer.dir/network/socket/ConnectingSocket.cpp.i
 
-CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/ConnectingSocket.cpp -o CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.s
+CMakeFiles/WSLWebServer.dir/network/socket/ConnectingSocket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WSLWebServer.dir/network/socket/ConnectingSocket.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/ConnectingSocket.cpp -o CMakeFiles/WSLWebServer.dir/network/socket/ConnectingSocket.cpp.s
+
+CMakeFiles/WSLWebServer.dir/network/socket/ListeningSocket.cpp.o: CMakeFiles/WSLWebServer.dir/flags.make
+CMakeFiles/WSLWebServer.dir/network/socket/ListeningSocket.cpp.o: ../network/socket/ListeningSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/WSLWebServer.dir/network/socket/ListeningSocket.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WSLWebServer.dir/network/socket/ListeningSocket.cpp.o -c /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/ListeningSocket.cpp
+
+CMakeFiles/WSLWebServer.dir/network/socket/ListeningSocket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WSLWebServer.dir/network/socket/ListeningSocket.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/ListeningSocket.cpp > CMakeFiles/WSLWebServer.dir/network/socket/ListeningSocket.cpp.i
+
+CMakeFiles/WSLWebServer.dir/network/socket/ListeningSocket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WSLWebServer.dir/network/socket/ListeningSocket.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/ListeningSocket.cpp -o CMakeFiles/WSLWebServer.dir/network/socket/ListeningSocket.cpp.s
+
+CMakeFiles/WSLWebServer.dir/network/socket/webserver_sockets.cpp.o: CMakeFiles/WSLWebServer.dir/flags.make
+CMakeFiles/WSLWebServer.dir/network/socket/webserver_sockets.cpp.o: ../network/socket/webserver_sockets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/WSLWebServer.dir/network/socket/webserver_sockets.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WSLWebServer.dir/network/socket/webserver_sockets.cpp.o -c /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/webserver_sockets.cpp
+
+CMakeFiles/WSLWebServer.dir/network/socket/webserver_sockets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WSLWebServer.dir/network/socket/webserver_sockets.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/webserver_sockets.cpp > CMakeFiles/WSLWebServer.dir/network/socket/webserver_sockets.cpp.i
+
+CMakeFiles/WSLWebServer.dir/network/socket/webserver_sockets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WSLWebServer.dir/network/socket/webserver_sockets.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/socket/webserver_sockets.cpp -o CMakeFiles/WSLWebServer.dir/network/socket/webserver_sockets.cpp.s
+
+CMakeFiles/WSLWebServer.dir/network/webserver_networking.cpp.o: CMakeFiles/WSLWebServer.dir/flags.make
+CMakeFiles/WSLWebServer.dir/network/webserver_networking.cpp.o: ../network/webserver_networking.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/WSLWebServer.dir/network/webserver_networking.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WSLWebServer.dir/network/webserver_networking.cpp.o -c /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/webserver_networking.cpp
+
+CMakeFiles/WSLWebServer.dir/network/webserver_networking.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WSLWebServer.dir/network/webserver_networking.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/webserver_networking.cpp > CMakeFiles/WSLWebServer.dir/network/webserver_networking.cpp.i
+
+CMakeFiles/WSLWebServer.dir/network/webserver_networking.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WSLWebServer.dir/network/webserver_networking.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/webserver_networking.cpp -o CMakeFiles/WSLWebServer.dir/network/webserver_networking.cpp.s
+
+CMakeFiles/WSLWebServer.dir/network/server/SimpleServer.cpp.o: CMakeFiles/WSLWebServer.dir/flags.make
+CMakeFiles/WSLWebServer.dir/network/server/SimpleServer.cpp.o: ../network/server/SimpleServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/WSLWebServer.dir/network/server/SimpleServer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WSLWebServer.dir/network/server/SimpleServer.cpp.o -c /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/server/SimpleServer.cpp
+
+CMakeFiles/WSLWebServer.dir/network/server/SimpleServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WSLWebServer.dir/network/server/SimpleServer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/server/SimpleServer.cpp > CMakeFiles/WSLWebServer.dir/network/server/SimpleServer.cpp.i
+
+CMakeFiles/WSLWebServer.dir/network/server/SimpleServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WSLWebServer.dir/network/server/SimpleServer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/server/SimpleServer.cpp -o CMakeFiles/WSLWebServer.dir/network/server/SimpleServer.cpp.s
+
+CMakeFiles/WSLWebServer.dir/network/server/Server.cpp.o: CMakeFiles/WSLWebServer.dir/flags.make
+CMakeFiles/WSLWebServer.dir/network/server/Server.cpp.o: ../network/server/Server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/WSLWebServer.dir/network/server/Server.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WSLWebServer.dir/network/server/Server.cpp.o -c /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/server/Server.cpp
+
+CMakeFiles/WSLWebServer.dir/network/server/Server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WSLWebServer.dir/network/server/Server.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/server/Server.cpp > CMakeFiles/WSLWebServer.dir/network/server/Server.cpp.i
+
+CMakeFiles/WSLWebServer.dir/network/server/Server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WSLWebServer.dir/network/server/Server.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/server/Server.cpp -o CMakeFiles/WSLWebServer.dir/network/server/Server.cpp.s
+
+CMakeFiles/WSLWebServer.dir/network/server/test.cpp.o: CMakeFiles/WSLWebServer.dir/flags.make
+CMakeFiles/WSLWebServer.dir/network/server/test.cpp.o: ../network/server/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/WSLWebServer.dir/network/server/test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WSLWebServer.dir/network/server/test.cpp.o -c /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/server/test.cpp
+
+CMakeFiles/WSLWebServer.dir/network/server/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WSLWebServer.dir/network/server/test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/server/test.cpp > CMakeFiles/WSLWebServer.dir/network/server/test.cpp.i
+
+CMakeFiles/WSLWebServer.dir/network/server/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WSLWebServer.dir/network/server/test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/server/test.cpp -o CMakeFiles/WSLWebServer.dir/network/server/test.cpp.s
 
 # Object files for target WSLWebServer
 WSLWebServer_OBJECTS = \
 "CMakeFiles/WSLWebServer.dir/WebServer.cpp.o" \
-"CMakeFiles/WSLWebServer.dir/network/SimpleSocket.cpp.o" \
-"CMakeFiles/WSLWebServer.dir/network/BindingSocket.cpp.o" \
-"CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.o"
+"CMakeFiles/WSLWebServer.dir/network/socket/SimpleSocket.cpp.o" \
+"CMakeFiles/WSLWebServer.dir/network/socket/BindingSocket.cpp.o" \
+"CMakeFiles/WSLWebServer.dir/network/socket/ConnectingSocket.cpp.o" \
+"CMakeFiles/WSLWebServer.dir/network/socket/ListeningSocket.cpp.o" \
+"CMakeFiles/WSLWebServer.dir/network/socket/webserver_sockets.cpp.o" \
+"CMakeFiles/WSLWebServer.dir/network/webserver_networking.cpp.o" \
+"CMakeFiles/WSLWebServer.dir/network/server/SimpleServer.cpp.o" \
+"CMakeFiles/WSLWebServer.dir/network/server/Server.cpp.o" \
+"CMakeFiles/WSLWebServer.dir/network/server/test.cpp.o"
 
 # External object files for target WSLWebServer
 WSLWebServer_EXTERNAL_OBJECTS =
 
 libWSLWebServer.a: CMakeFiles/WSLWebServer.dir/WebServer.cpp.o
-libWSLWebServer.a: CMakeFiles/WSLWebServer.dir/network/SimpleSocket.cpp.o
-libWSLWebServer.a: CMakeFiles/WSLWebServer.dir/network/BindingSocket.cpp.o
-libWSLWebServer.a: CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.o
+libWSLWebServer.a: CMakeFiles/WSLWebServer.dir/network/socket/SimpleSocket.cpp.o
+libWSLWebServer.a: CMakeFiles/WSLWebServer.dir/network/socket/BindingSocket.cpp.o
+libWSLWebServer.a: CMakeFiles/WSLWebServer.dir/network/socket/ConnectingSocket.cpp.o
+libWSLWebServer.a: CMakeFiles/WSLWebServer.dir/network/socket/ListeningSocket.cpp.o
+libWSLWebServer.a: CMakeFiles/WSLWebServer.dir/network/socket/webserver_sockets.cpp.o
+libWSLWebServer.a: CMakeFiles/WSLWebServer.dir/network/webserver_networking.cpp.o
+libWSLWebServer.a: CMakeFiles/WSLWebServer.dir/network/server/SimpleServer.cpp.o
+libWSLWebServer.a: CMakeFiles/WSLWebServer.dir/network/server/Server.cpp.o
+libWSLWebServer.a: CMakeFiles/WSLWebServer.dir/network/server/test.cpp.o
 libWSLWebServer.a: CMakeFiles/WSLWebServer.dir/build.make
 libWSLWebServer.a: CMakeFiles/WSLWebServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libWSLWebServer.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libWSLWebServer.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/WSLWebServer.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WSLWebServer.dir/link.txt --verbose=$(VERBOSE)
 
