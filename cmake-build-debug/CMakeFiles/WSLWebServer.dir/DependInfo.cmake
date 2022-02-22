@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/WebServer.cpp" "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles/WSLWebServer.dir/WebServer.cpp.o"
   "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/BindingSocket.cpp" "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles/WSLWebServer.dir/network/BindingSocket.cpp.o"
+  "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/ConnectingSocket.cpp" "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.o"
   "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/SimpleSocket.cpp" "/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles/WSLWebServer.dir/network/SimpleSocket.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

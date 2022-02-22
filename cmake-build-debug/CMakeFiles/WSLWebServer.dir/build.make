@@ -105,11 +105,25 @@ CMakeFiles/WSLWebServer.dir/network/BindingSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WSLWebServer.dir/network/BindingSocket.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/BindingSocket.cpp -o CMakeFiles/WSLWebServer.dir/network/BindingSocket.cpp.s
 
+CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.o: CMakeFiles/WSLWebServer.dir/flags.make
+CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.o: ../network/ConnectingSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.o -c /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/ConnectingSocket.cpp
+
+CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/ConnectingSocket.cpp > CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.i
+
+CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/ConnectingSocket.cpp -o CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.s
+
 # Object files for target WSLWebServer
 WSLWebServer_OBJECTS = \
 "CMakeFiles/WSLWebServer.dir/WebServer.cpp.o" \
 "CMakeFiles/WSLWebServer.dir/network/SimpleSocket.cpp.o" \
-"CMakeFiles/WSLWebServer.dir/network/BindingSocket.cpp.o"
+"CMakeFiles/WSLWebServer.dir/network/BindingSocket.cpp.o" \
+"CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.o"
 
 # External object files for target WSLWebServer
 WSLWebServer_EXTERNAL_OBJECTS =
@@ -117,9 +131,10 @@ WSLWebServer_EXTERNAL_OBJECTS =
 libWSLWebServer.a: CMakeFiles/WSLWebServer.dir/WebServer.cpp.o
 libWSLWebServer.a: CMakeFiles/WSLWebServer.dir/network/SimpleSocket.cpp.o
 libWSLWebServer.a: CMakeFiles/WSLWebServer.dir/network/BindingSocket.cpp.o
+libWSLWebServer.a: CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.o
 libWSLWebServer.a: CMakeFiles/WSLWebServer.dir/build.make
 libWSLWebServer.a: CMakeFiles/WSLWebServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libWSLWebServer.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libWSLWebServer.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/WSLWebServer.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WSLWebServer.dir/link.txt --verbose=$(VERBOSE)
 

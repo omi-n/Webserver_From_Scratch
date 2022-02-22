@@ -3,4 +3,4 @@ project(WSLWebServer)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_library(WSLWebServer WebServer.cpp network/SimpleSocket.cpp network/SimpleSocket.h network/BindingSocket.cpp network/BindingSocket.h)
+add_library(WSLWebServer WebServer.cpp network/SimpleSocket.cpp network/SimpleSocket.h network/BindingSocket.cpp network/BindingSocket.h network/ConnectingSocket.cpp network/ConnectingSocket.h)

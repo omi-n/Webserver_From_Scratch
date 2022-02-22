@@ -177,6 +177,30 @@ network/BindingSocket.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WSLWebServer.dir/build.make CMakeFiles/WSLWebServer.dir/network/BindingSocket.cpp.s
 .PHONY : network/BindingSocket.cpp.s
 
+network/ConnectingSocket.o: network/ConnectingSocket.cpp.o
+.PHONY : network/ConnectingSocket.o
+
+# target to build an object file
+network/ConnectingSocket.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WSLWebServer.dir/build.make CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.o
+.PHONY : network/ConnectingSocket.cpp.o
+
+network/ConnectingSocket.i: network/ConnectingSocket.cpp.i
+.PHONY : network/ConnectingSocket.i
+
+# target to preprocess a source file
+network/ConnectingSocket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WSLWebServer.dir/build.make CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.i
+.PHONY : network/ConnectingSocket.cpp.i
+
+network/ConnectingSocket.s: network/ConnectingSocket.cpp.s
+.PHONY : network/ConnectingSocket.s
+
+# target to generate assembly for a file
+network/ConnectingSocket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WSLWebServer.dir/build.make CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.s
+.PHONY : network/ConnectingSocket.cpp.s
+
 network/SimpleSocket.o: network/SimpleSocket.cpp.o
 .PHONY : network/SimpleSocket.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... network/BindingSocket.o"
 	@echo "... network/BindingSocket.i"
 	@echo "... network/BindingSocket.s"
+	@echo "... network/ConnectingSocket.o"
+	@echo "... network/ConnectingSocket.i"
+	@echo "... network/ConnectingSocket.s"
 	@echo "... network/SimpleSocket.o"
 	@echo "... network/SimpleSocket.i"
 	@echo "... network/SimpleSocket.s"

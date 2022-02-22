@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/WSLWebServer.dir/WebServer.cpp.o"
   "CMakeFiles/WSLWebServer.dir/network/BindingSocket.cpp.o"
+  "CMakeFiles/WSLWebServer.dir/network/ConnectingSocket.cpp.o"
   "CMakeFiles/WSLWebServer.dir/network/SimpleSocket.cpp.o"
   "libWSLWebServer.a"
   "libWSLWebServer.pdb"

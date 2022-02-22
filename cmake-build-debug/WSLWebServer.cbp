@@ -94,6 +94,12 @@
 		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/BindingSocket.h">
 			<Option target="WSLWebServer"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/ConnectingSocket.cpp">
+			<Option target="WSLWebServer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/ConnectingSocket.h">
+			<Option target="WSLWebServer"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/Nabil/CLionProjects/WSLWebServer/network/SimpleSocket.cpp">
 			<Option target="WSLWebServer"/>
 		</Unit>
