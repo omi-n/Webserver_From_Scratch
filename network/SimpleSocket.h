@@ -6,6 +6,7 @@
 #define WSLWEBSERVER_SIMPLESOCKET_H
 
 #include <cstdio>
+#include <cstdlib>
 #include <sys/socket.h>
 #include <netinet/in.h>
 
@@ -17,14 +18,13 @@ namespace Nabil_Omi_WSL {
 class SimpleSocket {
 
 public:
-    // Constructor
     SimpleSocket(int domain, int service, int protocol, int port, u_long interface);
-    // Connect to the network, should be implemented on higher level.
-    virtual int connectToNetwork(int sock, struct sockaddr_in address) = 0;
-    // Testing if the connection was successful
+    virtual int connectToNetwork(int sock_, struct sockaddr_in address_) = 0;
     static void testConnection(int toTest);
 
-    // Constant member functions
+    // Setters
+    void setConnection(int connection_);
+
     // Getters
     struct sockaddr_in getAddress() const;
     int getSock() const;

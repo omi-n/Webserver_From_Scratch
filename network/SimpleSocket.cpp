@@ -18,11 +18,6 @@ SimpleSocket::SimpleSocket(int domain, int service, int protocol, int port, u_lo
     // Establish, test socket
     sock = socket(domain, service, protocol);
     testConnection(sock);
-
-    // Establish, test connection
-    connection = connectToNetwork(sock, address);
-    testConnection(connection);
-
 }
 
 /**
@@ -46,4 +41,8 @@ int SimpleSocket::getSock() const {
 
 int SimpleSocket::getConnection() const {
     return connection;
+}
+
+void SimpleSocket::setConnection(int connection_) {
+    connection = connection_;
 }
