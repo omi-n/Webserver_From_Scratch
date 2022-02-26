@@ -3,6 +3,4 @@
 
 #include "network/webserver_networking.h"
 
-void hello();
-
 #endif //WSLWEBSERVER_WEBSERVER_H

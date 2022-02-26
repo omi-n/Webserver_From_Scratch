@@ -19,6 +19,7 @@ public:
     ~SimpleServer();
     ListeningSocket* getSocket();
     virtual void launch() = 0;
+    virtual void stop() = 0;
 
 private:
     ListeningSocket* socket;
@@ -26,6 +27,8 @@ private:
     virtual void acceptor() = 0;
     virtual void handler() = 0;
     virtual void responder() = 0;
+
+    virtual void parseRequest() = 0;
 
 };
 
