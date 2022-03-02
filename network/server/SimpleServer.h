@@ -28,8 +28,6 @@ private:
     virtual void handler() = 0;
     virtual void responder() = 0;
 
-    virtual void parseRequest() = 0;
-
 };
 
 }

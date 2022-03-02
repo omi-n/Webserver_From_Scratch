@@ -7,7 +7,7 @@
 
 #include <cstdio>
 #include "SimpleServer.h"
-#include "Request.h"
+#include "../../parsers/Request.h"
 #include <iostream>
 
 namespace Nabil_Omi_WSL {
@@ -23,10 +23,8 @@ private:
     char buffer[30000];
     int new_socket;
     std::string HTMLResponse;
-    Request parsedRequest;
     void acceptor() final;
     void handler() final;
-    void parseRequest() final;
     void responder() final;
 };
 

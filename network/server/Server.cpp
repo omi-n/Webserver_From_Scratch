@@ -28,10 +28,6 @@ void Server::handler() {
     std::printf("%s", buffer);
 }
 
-void Server::parseRequest() {
-
-}
-
 void Server::responder() {
     std::string response_head = "HTTP/1.1 200 OK\r\n\r\n";
     std::string response_body = HTMLResponse;
