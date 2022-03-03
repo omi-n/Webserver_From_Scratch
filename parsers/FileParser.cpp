@@ -6,8 +6,8 @@
 
 using namespace Nabil_Omi_WSL;
 
-FileParser::FileParser(std::string &toParse) {
-    std::ifstream file(toParse);
+FileParser::FileParser(const std::string& toParse) {
+    std::ifstream file(".." + toParse);
     std::string tmpRes;
     if(file.is_open()) {
         std::string line;
@@ -16,7 +16,8 @@ FileParser::FileParser(std::string &toParse) {
         }
         file.close();
     } else {
-        printf("PARSING FAILED: Unable to open file in FileParser");
+        printf("PARSING FAILED: Unable to open file in FileParser\n");
+        std::exit(1);
     }
 
     // I want size to specifically be the str len size of the c string

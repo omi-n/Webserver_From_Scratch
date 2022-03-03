@@ -10,9 +10,9 @@
 
 namespace Nabil_Omi_WSL {
 
-class FileParser : SimpleParser<std::string> {
+class FileParser : public SimpleParser<std::string> {
 public:
-    explicit FileParser(std::string &toParse);
+    explicit FileParser(const std::string& toParse);
 };
 
 }
