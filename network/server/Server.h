@@ -7,12 +7,11 @@
 
 #include <cstdio>
 #include "SimpleServer.h"
-#include "../../parsers/Request.h"
 #include <iostream>
 
 namespace Nabil_Omi_WSL {
 
-class Server : SimpleServer {
+class Server : public SimpleServer {
 
 public:
     Server(int domain, int service, int protocol, int port, int interface, int backlog_, std::string &HTMLResponse);

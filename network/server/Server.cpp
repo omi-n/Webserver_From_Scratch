@@ -30,8 +30,7 @@ void Server::handler() {
 
 void Server::responder() {
     std::string response_head = "HTTP/1.1 200 OK\r\n\r\n";
-    std::string response_body = HTMLResponse;
-    std::string final_response =  response_head + response_body;
+    std::string final_response =  response_head + HTMLResponse;
 
     const char* final_response_c_str = final_response.c_str();
 
