@@ -15,7 +15,6 @@ template <typename OutputType>
 class SimpleParser {
 
 public:
-    explicit SimpleParser() = default;
     unsigned long getSize() { return size_; }
     OutputType getParsed() { return parsed_; }
 

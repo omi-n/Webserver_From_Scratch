@@ -6,7 +6,7 @@
 
 using namespace Nabil_Omi_WSL;
 
-FileParser::FileParser(std::string &toParse) : SimpleParser() {
+FileParser::FileParser(std::string &toParse) {
     std::ifstream file(toParse);
     std::string tmpRes;
     if(file.is_open()) {
